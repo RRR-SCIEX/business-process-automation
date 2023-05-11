@@ -13,11 +13,11 @@ import CogSearch from './chat/Chat'
 
 export default function Content(props) {
 
-    const [selectedMenuItem, setSelectedMenuItem] = useState("HOME");
+    const [selectedMenuItem, setSelectedMenuItem] = useState("COG_SEARCH");
     const [breadCrumbItems, setBreadCrumbItems] = useState([])
 
     const onBreadcrumbHome = () => {
-        setSelectedMenuItem("HOME")
+        setSelectedMenuItem("COG_SEARCH")
         setBreadCrumbItems([])
     }
 
