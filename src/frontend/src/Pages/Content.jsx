@@ -171,12 +171,7 @@ export default function Content(props) {
                             <Breadcrumb.Link href="" onClick={onBreadcrumbHome}>Home</Breadcrumb.Link>
                         </Breadcrumb.Item>
                     </Breadcrumb>
-                    <Breadcrumb.Divider>
-                       
-                    </Breadcrumb.Divider>
-                
-                    <Breadcrumb.Item>
-                    </Breadcrumb.Item>
+                  
                 </>)
 
             case 'OPENAI_VIEWER':
