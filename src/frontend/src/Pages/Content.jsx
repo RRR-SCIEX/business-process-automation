@@ -166,14 +166,17 @@ export default function Content(props) {
 
             case 'COG_SEARCH':
                 return (<>
-                    <Breadcrumb>
-              <Breadcrumb.Item style={{ paddingLeft: "0px" }}>
-                <Breadcrumb.Link
-                  href=""
-                  onClick={onBreadcrumbHome}
-                ></Breadcrumb.Link>
-              </Breadcrumb.Item>
-            </Breadcrumb>
+                   <Breadcrumb >
+                        <Breadcrumb.Item style={{ paddingLeft: "0px" }}>
+                            <Breadcrumb.Link href="" onClick={onBreadcrumbHome}>Home</Breadcrumb.Link>
+                        </Breadcrumb.Item>
+                    </Breadcrumb>
+                    <Breadcrumb.Divider>
+                        <ChevronEndMediumIcon />
+                    </Breadcrumb.Divider>
+                
+                    
+                    </Breadcrumb.Item>
                 </>)
 
             case 'OPENAI_VIEWER':
