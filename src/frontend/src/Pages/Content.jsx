@@ -172,10 +172,10 @@ export default function Content(props) {
                         </Breadcrumb.Item>
                     </Breadcrumb>
                     <Breadcrumb.Divider>
-                        <ChevronEndMediumIcon />
+                       
                     </Breadcrumb.Divider>
                 
-                    
+                    <Breadcrumb.Item>
                     </Breadcrumb.Item>
                 </>)
 
