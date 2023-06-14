@@ -1,4 +1,4 @@
-# Business Process Automation Accelerator
+# BPA Deployed for CAP (Conversational Abstracts Platform)
 
 
 ## Overview
